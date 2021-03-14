@@ -32,6 +32,10 @@ function myTimer() {
   var d = new Date();
   document.getElementById('clock').innerHTML = d.toLocaleTimeString();
 }
+
+// https://www.w3schools.com/js/js_timing.asp
+
+
 // -----------------
 // var seconds = addLeadingZero(today.getSeconds());
 // var minutes = addLeadingZero(today.getMinutes());
