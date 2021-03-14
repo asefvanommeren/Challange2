@@ -26,6 +26,12 @@ var minutes = today.getMinutes();
 document.getElementById('clock').innerHTML = today.getHours() + ':' + minutes + ':' + seconds;
 // -----------------
 
+var refresh = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById('clock').innerHTML = d.toLocaleTimeString();
+}
 // -----------------
 // var seconds = addLeadingZero(today.getSeconds());
 // var minutes = addLeadingZero(today.getMinutes());
@@ -51,6 +57,5 @@ document.getElementById('clock-date').innerHTML = today2.getDate() + '/' + (toda
 var maanden = new Array('Januari', 'Debruari', 'Maart', 'April', 'Mei', 'Juni', 'Juli', 'Augustus', 'September', 'Oktober', 'November', 'December');
 
 document.getElementById('clock-date').innerHTML = today2.getDate() + ' ' + maanden[today2.getMonth()] + ' ' + today2.getFullYear();
-
 
 //document.getElementById('clock').innerHTML = today.getTime();
