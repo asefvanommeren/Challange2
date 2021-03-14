@@ -23,7 +23,11 @@ body {
   justify-content: center;
 }
 
-#box {
+.title {
+  color: white;
+}
+
+.box {
 	/* position: relative; */
   display: flex;
   justify-content: center;
