@@ -14,16 +14,16 @@ var today = new Date();
 //document.getElementById('clock').innerHTML = today.getMilliseconds();
 
 // -----------------
-// var seconds = today.getSeconds ();
-//   if (seconds < 10) {
-//       seconds = '0' + seconds;
-//   }
-//
-// var minutes = today.getMinutes();
-//   if (minutes < 10) {
-//       minutes = '0' + minutes;
-//     }
-//document.getElementById('clock').innerHTML = today.getHours() + ':' + minutes + ':' + seconds;
+var seconds = today.getSeconds ();
+  if (seconds < 10) {
+      seconds = '0' + seconds;
+  }
+
+var minutes = today.getMinutes();
+  if (minutes < 10) {
+      minutes = '0' + minutes;
+    }
+document.getElementById('clock').innerHTML = today.getHours() + ':' + minutes + ':' + seconds;
 // -----------------
 
 // -----------------
