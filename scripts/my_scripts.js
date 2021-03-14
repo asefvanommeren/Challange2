@@ -46,11 +46,11 @@ document.getElementById('clock').innerHTML = today.getHours() + ':' + minutes + 
 
 var today2 = new Date();
 
-document.getElementById('clock-date').innerHTML = today.getDate() + '/' + (today.getMonth()+1);
+document.getElementById('clock-date').innerHTML = today2.getDate() + '/' + (today2.getMonth()+1);
 
 var maanden = new Array('Januari', 'Debruari', 'Maart', 'April', 'Mei', 'Juni', 'Juli', 'Augustus', 'September', 'Oktober', 'November', 'December');
 
-document.getElementById('clock-date').innerHTML = today.getDate() + ' ' + maanden[today.getMonth()] + ' ' + today.getFullYear();
+document.getElementById('clock-date').innerHTML = today2.getDate() + ' ' + maanden[today2.getMonth()] + ' ' + today2.getFullYear();
 
 
 //document.getElementById('clock').innerHTML = today.getTime();
