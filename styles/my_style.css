@@ -8,8 +8,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	/* background-color: black; */
-	/* background: url(../../images/space.jpeg); */
+	background-color: black;
 	background: url(../space.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
