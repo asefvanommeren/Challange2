@@ -38,7 +38,9 @@ h3 {
 
 .title {
   color: white;
-  font-size-adjust: auto;
+  width: 100%;
+  font-size: 3vw;
+  text-align: center;
 }
 
 .box {
