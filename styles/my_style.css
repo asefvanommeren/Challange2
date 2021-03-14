@@ -9,7 +9,6 @@ body {
 	align-items: center;
 	min-height: 100vh;
 	background-color: black;
-	background: url(../space.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 420px;
@@ -24,7 +23,7 @@ body {
   justify-content: center;
 }
 
-.box {
+#box {
 	/* position: relative; */
   display: flex;
   justify-content: center;
