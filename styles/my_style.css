@@ -65,3 +65,29 @@ h3 {
 	background: #fff;
 	/* box-shadow: 0 30px 60px rgba(0, 0, 0, .2); */
 }
+
+
+@media only screen and (max-width: 1130px){
+  body {
+    background: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+@media only screen and (max-width: 760px){
+  body {
+    background: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 550px){
+  body {
+    background: green;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
