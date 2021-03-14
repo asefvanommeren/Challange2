@@ -44,11 +44,13 @@ document.getElementById('clock').innerHTML = today.getHours() + ':' + minutes + 
 
 // -----------------
 
+var today2 = new Date();
 
-//document.getElementById('clock').innerHTML = today.getDate() + '/' + (today.getMonth()+1);
+document.getElementById('clock-date').innerHTML = today.getDate() + '/' + (today.getMonth()+1);
 
-//var maanden = new Array('januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november', 'december');
-//document.getElementById('clock').innerHTML = today.getDate() + ' ' + maanden[today.getMonth()];
+var maanden = new Array('Januari', 'Debruari', 'Maart', 'April', 'Mei', 'Juni', 'Juli', 'Augustus', 'September', 'Oktober', 'November', 'December');
+
+document.getElementById('clock-date').innerHTML = today.getDate() + ' ' + maanden[today.getMonth()] + ' ' + today.getFullYear();
 
 
 //document.getElementById('clock').innerHTML = today.getTime();
