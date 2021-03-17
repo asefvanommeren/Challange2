@@ -61,20 +61,23 @@ h3 {
   margin: 10px;
 	align-items: center;
 	background: #fff;
-
 	/* box-shadow: 0 30px 60px rgba(0, 0, 0, .2); */
 }
 
 #clock {
-  font-size: 25vh;
+  font-size: 16vh;
 }
 
 #clock-date {
-  font-size: 15vh;
+  font-size: 10vh;
 }
 
 #clock-img {
-	
+	display: flex;
+  justify-content: center;
+  flex-direction: column;
+	height: 320px;
+	width: 320px;
 }
 
 @media only screen and (max-width: 1130px){
@@ -87,11 +90,20 @@ h3 {
   }
 
   #clock {
-    font-size: 15vh;
+    font-size: 12vh;
   }
 
   #clock-date {
-    font-size: 10vh;
+    font-size: 7vh;
+  }
+
+	#clock-img {
+    height: 500px;
+  }
+
+	#clock-img {
+    height: 300px;
+		width: 300px;
   }
 }
 
@@ -105,11 +117,16 @@ h3 {
   }
 
   #clock {
-    font-size: 10vh;
+    font-size: 8vh;
   }
 
   #clock-date {
-    font-size: 7vh;
+    font-size: 5vh;
+  }
+
+	#clock-img {
+    height: 250px;
+		width: 250px;
   }
 }
 
@@ -123,10 +140,15 @@ h3 {
   }
 
   #clock {
-    font-size: 8vh;
+    font-size: 6vh;
   }
 
   #clock-date {
-    font-size: 5vh;
+    font-size: 3.5vh;
+  }
+
+	#clock-img {
+    height: 200px;
+		width: 200px;
   }
 }
