@@ -61,7 +61,7 @@ h3 {
   margin: 10px;
 	align-items: center;
 	background: #fff;
-  
+
 	/* box-shadow: 0 30px 60px rgba(0, 0, 0, .2); */
 }
 
@@ -71,6 +71,10 @@ h3 {
 
 #clock-date {
   font-size: 15vh;
+}
+
+#clock-img {
+	
 }
 
 @media only screen and (max-width: 1130px){
