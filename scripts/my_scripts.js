@@ -44,19 +44,10 @@ document.getElementById('clock-date').innerHTML = today2.getDate() + ' ' + maand
 
 // ----------------- IMAGE BLOCK ----------------
 
-function changeImage(a) {
-  va
-}
+
 
 // ---------------------------------------------
 
-
-function dagNacht(dagNacht) {
-  var today = new Date();
-  var dagNacht = today.getHours();
-
-  if dagNacht > 7 &&
-}
 
 
 
