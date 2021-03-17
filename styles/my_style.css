@@ -8,7 +8,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background-color: black;
+	/* background-color: black; */
+	background: url("../images/space.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   min-width: 420px;
   margin: 25px 25px;
 }
@@ -82,7 +85,7 @@ h3 {
 
 @media only screen and (max-width: 1130px){
   body {
-    background: red;
+    /* background: red; */
   }
 
   .box {
@@ -109,7 +112,7 @@ h3 {
 
 @media only screen and (max-width: 760px){
   body {
-    background: blue;
+    /* background: blue; */
   }
 
   .box {
@@ -132,7 +135,7 @@ h3 {
 
 @media only screen and (max-width: 550px){
   body {
-    background: green;
+    /* background: green; */
   }
 
   .box {
