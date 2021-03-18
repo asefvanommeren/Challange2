@@ -49,19 +49,19 @@ var image = document.getElementById('clock-img').innerHTML;
 
 function clockImg() {
   if (hour >= 0 && hour <= 5) {
-      document.getElementById('clock-img').src = "../images/night.png";
+      document.getElementById('clock-img').src = "night.png";
     // image.src = '../images/moon.png';
     console.log("0-5");
   } else if (hour >= 6 && hour <= 11) {
-      document.getElementById('clock-img').src = "../images/morning.png";
+      document.getElementById('clock-img').src = "morning.png";
       // image.src = '../images/morning.png';
       console.log("6-11");
   } else if (hour >= 12 && hour <= 17) {
-      document.getElementById('clock-img').src = "../images/afternoon.png";
+      document.getElementById('clock-img').src = "afternoon.png";
       // image.src = '../images/sun.png';
       console.log("12-17");
   } else if (hour >= 18 && hour <= 23){
-      document.getElementById('clock-img').src = "../images/evening.png";
+      document.getElementById('clock-img').src = "evening.png";
       // image.src = "evening.png";
       console.log("18-23");
   } else {
