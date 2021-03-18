@@ -70,7 +70,7 @@ function clockImg() {
   }
 }
 
-document.getElementById('clock-img').innerHTML = clockImg();
+clockImg();
 
 //https://answers.unity.com/questions/30652/is-there-a-javascript-between-x-and-y-values-opera.html
 
