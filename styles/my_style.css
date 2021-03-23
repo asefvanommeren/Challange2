@@ -68,7 +68,21 @@ h3 {
 }
 
 #nyancat {
+	width: auto;
 	height: 20vh;
+	position: relative;
+	top: 320px;
+	/* left: 320px; */
+	animation: 1000ms pulsate infinite alternate ease-in-out;
+}
+
+@keyframes pulsate {
+  0% {
+  	top: -10px;
+  }
+  100% {
+  	top: 10px;
+  }
 }
 
 #clock {
